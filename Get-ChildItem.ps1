@@ -9,6 +9,7 @@ $args = @{
     # Depth = 0
     # Force = $null
     # Name = $null
+    # FollowSymlink = $null
     # Attributes = @(
         # 'Archive'
         # 'Compressed'
