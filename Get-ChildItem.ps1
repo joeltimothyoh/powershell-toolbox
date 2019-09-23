@@ -1,4 +1,4 @@
-$args = @{
+$myargs = @{
     Path = @(
         # 'S:'
     )
@@ -35,4 +35,4 @@ $args = @{
     # System = $null
 }
 
-Get-ChildItem @args
+Get-ChildItem @myargs
