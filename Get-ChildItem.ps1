@@ -5,11 +5,11 @@ $myargs = @{
     # Filter = ''
     # Include = ''
     # Exclude = ''
-    # Recurse = $null
+    # Recurse = $true
     # Depth = 0
-    # Force = $null
-    # Name = $null
-    # FollowSymlink = $null
+    # Force = $true
+    # Name = $true
+    # FollowSymlink = $true
     # Attributes = @(
         # 'Archive'
         # 'Compressed'
@@ -28,11 +28,11 @@ $myargs = @{
         # 'System'
         # 'Temporary'
     # )
-    # Directory = $null
-    # File = $null
-    # Hidden = $null
-    # ReadOnly = $null
-    # System = $null
+    # Directory = $true
+    # File = $true
+    # Hidden = $true
+    # ReadOnly = $true
+    # System = $true
 }
 
 Get-ChildItem @myargs
